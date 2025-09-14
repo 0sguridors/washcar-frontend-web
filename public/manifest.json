@@ -1,0 +1,74 @@
+{
+    "name": "CarWash - Lavação Automotiva",
+    "short_name": "CarWash",
+    "description": "Sistema anti-fila para lavagem de carros - Agende online e evite esperas",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#3b4052",
+    "theme_color": "#6366f1",
+    "orientation": "portrait-primary",
+    "scope": "/",
+    "lang": "pt-BR",
+    "dir": "ltr",
+    "categories": ["business", "lifestyle", "utilities", "automotive"],
+    "icons": [
+      {
+        "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNzIiIGhlaWdodD0iNzIiIHZpZXdCb3g9IjAgMCA3MiA3MiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjcyIiBoZWlnaHQ9IjcyIiByeD0iMTIiIGZpbGw9IiM2MzY2ZjEiLz4KPHN2ZyB4PSIxNiIgeT0iMjAiIHdpZHRoPSI0MCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDQwIDI0IiBmaWxsPSJub25lIj4KPHBhdGggZD0iTTggMTUgQzggMTMsIDEwIDEyLCAxMiAxMiBMMjggMTIgQzMwIDEyLCAzMiAxMywgMzIgMTUgTDMyIDE3IEw4IDE3IFoiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik0xMiA4IEMxMiA2LCAxNCA0LCAxNiA0IEwyNCA0IEMyNiA0LCAyOCA2LCAyOCA4IEwyOCAxMiBMMTIgMTIgWiIgZmlsbD0id2hpdGUiLz4KPGNpcmNsZSBjeD0iMTQiIGN5PSIxNyIgcj0iMyIgZmlsbD0id2hpdGUiLz4KPGNpcmNsZSBjeD0iMjYiIGN5PSIxNyIgcj0iMyIgZmlsbD0id2hpdGUiLz4KPGNpcmNsZSBjeD0iMTQiIGN5PSIxNyIgcj0iMS41IiBmaWxsPSIjNjM2NmYxIi8+CjxjaXJjbGUgY3g9IjI2IiBjeT0iMTciIHI9IjEuNSIgZmlsbD0iIzYzNjZmMSIvPgo8L3N2Zz4KPHRleHQgeD0iMzYiIHk9IjU1IiBmb250LXNpemU9IjEwIiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSI+Q0FSV0FTSDwvdGV4dD4KPC9zdmc+",
+        "sizes": "72x72",
+        "type": "image/svg+xml",
+        "purpose": "any"
+      },
+      {
+        "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyIiBoZWlnaHQ9IjE5MiIgdmlld0JveD0iMCAwIDE5MiAxOTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxOTIiIGhlaWdodD0iMTkyIiByeD0iMjQiIGZpbGw9IiM2MzY2ZjEiLz4KPHN2ZyB4PSI0OCIgeT0iNzIiIHdpZHRoPSI5NiIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDk2IDQ4IiBmaWxsPSJub25lIj4KPHBhdGggZD0iTTE2IDMwIEMxNiAyNywyMCAyNCwyNCAyNCBMNzIgMjQgQzc2IDI0LDgwIDI3LDgwIDMwIEw4MCAzNCBMMTYgMzQgWiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTI0IDE4IEMyNCAxNSwyOCAxMiwzMiAxMiBMNjQgMTIgQzY4IDEyLDcyIDE1LDcyIDE4IEw3MiAyNCBMMjQgMjQgWiIgZmlsbD0id2hpdGUiLz4KPGNpcmNsZSBjeD0iMjgiIGN5PSIzNCIgcj0iNiIgZmlsbD0id2hpdGUiLz4KPGNpcmNsZSBjeD0iNjgiIGN5PSIzNCIgcj0iNiIgZmlsbD0id2hpdGUiLz4KPGNpcmNsZSBjeD0iMjgiIGN5PSIzNCIgcj0iMyIgZmlsbD0iIzYzNjZmMSIvPgo8Y2lyY2xlIGN4PSI2OCIgY3k9IjM0IiByPSIzIiBmaWxsPSIjNjM2NmYxIi8+Cjwvc3ZnPgo8dGV4dCB4PSI5NiIgeT0iMTM2IiBmb250LXNpemU9IjI0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSI+Q0FSV0FTSDwvdGV4dD4KPC9zdmc+",
+        "sizes": "192x192",
+        "type": "image/svg+xml",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiByeD0iNjQiIGZpbGw9IiM2MzY2ZjEiLz4KPHN2ZyB4PSIxMjgiIHk9IjE5MiIgd2lkdGg9IjI1NiIgaGVpZ2h0PSIxMjgiIHZpZXdCb3g9IjAgMCAyNTYgMTI4IiBmaWxsPSJub25lIj4KPHBhdGggZD0iTTQwIDgwIEM0MCA3Miw0OCA2NCw1NiA2NCBMMJAMCA2NCBDMJQ4IDY0LDI1NiA3MiwyNTYgODAgTDI1NiA5MiBMNDAgOTIgWiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTU2IDQ4IEM1NiA0MCw2NCAzMiw3MiAzMiBMMTg0IDMyIEMxOTIgMzIsMjAwIDQwLDIwMCA0OCBMMjAwIDY0IEw1NiA2NCBaIiBmaWxsPSJ3aGl0ZSIvPgo8Y2lyY2xlIGN4PSI3MiIgY3k9IjkyIiByPSIxNiIgZmlsbD0id2hpdGUiLz4KPGNpcmNsZSBjeD0iMTg0IiBjeT0iOTIiIHI9IjE2IiBmaWxsPSJ3aGl0ZSIvPgo8Y2lyY2xlIGN4PSI3MiIgY3k9IjkyIiByPSI4IiBmaWxsPSIjNjM2NmYxIi8+CjxjaXJjbGUgY3g9IjE4NCIgY3k9IjkyIiByPSI4IiBmaWxsPSIjNjM2NmYxIi8+Cjwvc3ZnPgo8dGV4dCB4PSIyNTYiIHk9IjM2MCIgZm9udC1zaXplPSI2NCIgZm9udC13ZWlnaHQ9IjkwMCIgZmlsbD0id2hpdGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkNBUldBU0g8L3RleHQ+Cjx0ZXh0IHg9IjI1NiIgeT0iNDEwIiBmb250LXNpemU9IjMyIiBmb250LXdlaWdodD0iNjAwIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSI+TGF2YcOnw6NvIEF1dG9tb3RpdmE8L3RleHQ+Cjwvc3ZnPg==",
+        "sizes": "512x512",
+        "type": "image/svg+xml",
+        "purpose": "any maskable"
+      }
+    ],
+    "screenshots": [
+      {
+        "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjcwIiBoZWlnaHQ9IjQ4MCIgdmlld0JveD0iMCAwIDI3MCA0ODAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIyNzAiIGhlaWdodD0iNDgwIiBmaWxsPSIjZjhmYWZjIi8+CjxyZWN0IHg9IjIwIiB5PSIxMDAiIHdpZHRoPSIyMzAiIGhlaWdodD0iMjgwIiByeD0iMjAiIGZpbGw9IiMzYjQwNTIiLz4KPHRleHQgeD0iMTM1IiB5PSIxNDAiIGZvbnQtc2l6ZT0iMjAiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiM2MzY2ZjEiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkNBUldBU0g8L3RleHQ+Cjwvc3ZnPg==",
+        "sizes": "270x480",
+        "type": "image/svg+xml",
+        "form_factor": "narrow",
+        "label": "Tela principal do CarWash"
+      }
+    ],
+    "shortcuts": [
+      {
+        "name": "Agendar Lavagem",
+        "short_name": "Agendar",
+        "description": "Agende rapidamente uma lavagem sem fila",
+        "url": "/?action=schedule",
+        "icons": [
+          {
+            "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTYiIGhlaWdodD0iOTYiIHZpZXdCb3g9IjAgMCA5NiA5NiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9Ijk2IiBoZWlnaHQ9Ijk2IiByeD0iMTYiIGZpbGw9IiM2MzY2ZjEiLz4KPHN2ZyB4PSIyNCIgeT0iMjQiIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDQ4IDQ4IiBmaWxsPSJub25lIj4KPHBhdGggZD0iTTEyIDhWMTJINDhWOEg0OFY0QzQ4IDIuOSA0Ny4xIDIgNDYgMkg0MEM0MS4xIDIgNDAgMi45IDQwIDRWOEgxNlY0QzE2IDIuOSAxNS4xIDIgMTQgMkg4QzYuOSAyIDYgMi45IDYgNFY4SDhWMTJINkg0MEMzOC45IDQ2IDM4IDQ0IDM4IDQyVjE4SDEwVjQyQzEwIDQ0IDEwLjkgNDYgMTIgNDZINDJINDJWMTJIMTJaTTM0IDM0SDI4VjI4SDIyVjM0SDE2VjQwSDIyVjQ2SDI4VjQwSDM0VjM0WiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cjwvc3ZnPg==",
+            "sizes": "96x96"
+          }
+        ]
+      },
+      {
+        "name": "Meus Veículos",
+        "short_name": "Veículos",
+        "description": "Gerenciar meus veículos cadastrados",
+        "url": "/?action=vehicles",
+        "icons": [
+          {
+            "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTYiIGhlaWdodD0iOTYiIHZpZXdCb3g9IjAgMCA5NiA5NiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9Ijk2IiBoZWlnaHQ9Ijk2IiByeD0iMTYiIGZpbGw9IiM2MzY2ZjEiLz4KPHN2ZyB4PSIxNiIgeT0iMzIiIHdpZHRoPSI2NCIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDY0IDMyIiBmaWxsPSJub25lIj4KPHBhdGggZD0iTTEyIDIwIEMxMiAxOCwxNiAxNiwxOCAxNiBMNDYgMTYgQzQ4IDE2LDUyIDE4LDUyIDIwIEw1MiAyMiBMMTIgMjIgWiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTE4IDEwIEMxOCA4LDIyIDYsMjQgNiBMNDAgNiBDNDIgNiw0NiA4LDQ2IDEwIEw0NiAxNiBMMTggMTYgWiIgZmlsbD0id2hpdGUiLz4KPGNpcmNsZSBjeD0iMjAiIGN5PSIyMiIgcj0iNCIgZmlsbD0id2hpdGUiLz4KPGNpcmNsZSBjeD0iNDQiIGN5PSIyMiIgcj0iNCIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cjwvc3ZnPg==",
+            "sizes": "96x96"
+          }
+        ]
+      }
+    ],
+    "prefer_related_applications": false,
+    "related_applications": [],
+    "edge_side_panel": {
+      "preferred_width": 400
+    }
+  }
