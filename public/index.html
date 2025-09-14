@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarWash - Lavação Automotiva</title>
+    <meta name="description" content="CarWash - Sistema anti-fila para lavagem automotiva">
+    <meta name="theme-color" content="#6366f1">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Tela de Login -->
+    <div id="loginScreen" class="screen login-screen">
+        <div class="logo-section">
+            <div class="car-logo">
+                <svg width="120" height="80" viewBox="0 0 120 80" fill="none">
+                    <!-- Carro SVG -->
+                    <path d="M20 50 C20 45, 25 40, 30 40 L90 40 C95 40, 100 45, 100 50 L100 55 L20 55 Z" fill="#6366f1"/>
+                    <path d="M30 30 C30 25, 35 20, 40 20 L80 20 C85 20, 90 25, 90 30 L90 40 L30 40 Z" fill="#6366f1"/>
+                    <circle cx="35" cy="55" r="8" fill="#6366f1"/>
+                    <circle cx="85" cy="55" r="8" fill="#6366f1"/>
+                    <circle cx="35" cy="55" r="4" fill="white"/>
+                    <circle cx="85" cy="55" r="4" fill="white"/>
+                </svg>
+            </div>
+            <h1 class="brand-name">CARWASH</h1>
+            <div class="waves">
+                <svg width="200" height="20" viewBox="0 0 200 20" fill="none">
+                    <path d="M0 10 Q25 5, 50 10 T100 10 T150 10 T200 10" stroke="#6366f1" stroke-width="2" fill="none"/>
+                    <path d="M0 15 Q25 10, 50 15 T100 15 T150 15 T200 15" stroke="#6366f1" stroke-width="2" fill="none"/>
+                    <path d="M0 20 Q25 15, 50 20 T100 20 T150 20 T200 20" stroke="#6366f1" stroke-width="2" fill="none"/>
+                </svg>
+            </div>
+            <p class="subtitle">Lavação Automotiva</p>
+            <p class="slogan">Dê um brilho ao seu<br>carro e à sua vida!</p>
+        </div>
+
+        <div class="login-buttons">
+            <button class="btn btn-primary" onclick="showHomeScreen()">Login</button>
+            <button class="btn btn-secondary" onclick="showRegisterScreen()">Inscreva-se</button>
+        </div>
+    </div>
+
+    <!-- Tela Principal -->
+    <div id="homeScreen" class="screen home-screen" style="display: none;">
+        <header class="header">
+            <div class="logo-header">
+                <div class="car-logo-small">
+                    <svg width="60" height="40" viewBox="0 0 60 40" fill="none">
+                        <path d="M10 25 C10 22.5, 12.5 20, 15 20 L45 20 C47.5 20, 50 22.5, 50 25 L50 27.5 L10 27.5 Z" fill="#6366f1"/>
+                        <path d="M15 15 C15 12.5, 17.5 10, 20 10 L40 10 C42.5 10, 45 12.5, 45 15 L45 20 L15 20 Z" fill="#6366f1"/>
+                        <circle cx="17.5" cy="27.5" r="4" fill="#6366f1"/>
+                        <circle cx="42.5" cy="27.5" r="4" fill="#6366f1"/>
+                        <circle cx="17.5" cy="27.5" r="2" fill="white"/>
+                        <circle cx="42.5" cy="27.5" r="2" fill="white"/>
+                    </svg>
+                </div>
+                <div>
+                    <h2 class="brand-name-small">CARWASH</h2>
+                    <div class="waves-small">
+                        <svg width="100" height="10" viewBox="0 0 100 10" fill="none">
+                            <path d="M0 5 Q12.5 2.5, 25 5 T50 5 T75 5 T100 5" stroke="#6366f1" stroke-width="1" fill="none"/>
+                            <path d="M0 7.5 Q12.5 5, 25 7.5 T50 7.5 T75 7.5 T100 7.5" stroke="#6366f1" stroke-width="1" fill="none"/>
+                        </svg>
+                    </div>
+                    <p class="subtitle-small">Lavação Automotiva</p>
+                </div>
+            </div>
+        </header>
+
+        <div class="content">
+            <div class="location-bar">
+                <div class="location-info">
+                    <svg width="16" height="16" fill="#6366f1" viewBox="0 0 16 16">
+                        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                    </svg>
+                    <span>Curitiba - Paraná</span>
+                </div>
+            </div>
+
+            <div class="search-bar">
+                <input type="text" placeholder="Lava-rápidos próximas" class="search-input">
+                <button class="search-btn">
+                    <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                    </svg>
+                </button>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card vip">
+                    <div class="service-icon">
+                        <svg width="32" height="32" fill="white" viewBox="0 0 16 16">
+                            <path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z"/>
+                        </svg>
+                    </div>
+                    <h3>Seja um<br>membro<br>VIP!</h3>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" fill="white" viewBox="0 0 16 16">
+                            <path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z"/>
+                            <path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319z"/>
+                        </svg>
+                    </div>
+                    <h3>Serviços<br>Personalizados</h3>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" fill="white" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                            <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                        </svg>
+                    </div>
+                    <h3>Plano de<br>Fidelidade</h3>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" fill="white" viewBox="0 0 16 16">
+                            <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5V7h4V3H1.5zM5 8H1v4.5a.5.5 0 0 0 .5.5H5V8zm1 0v5h4.5a.5.5 0 0 0 .5-.5V8H6zm4-1V3H6v4h4z"/>
+                        </svg>
+                    </div>
+                    <h3>Pacotes para<br>sua Empresa</h3>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom Navigation -->
+        <nav class="bottom-nav">
+            <a href="#" class="nav-item active" onclick="showHomeScreen()">
+                <svg width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5z"/>
+                </svg>
+                <span>Home</span>
+            </a>
+            <a href="#" class="nav-item" onclick="showVehiclesScreen()">
+                <svg width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 4Zm2.5-.5a2.5 2.5 0 0 0-2.4 1.8.5.5 0 0 1-.4.2H2.5a.5.5 0 0 1 0-1H3.9a3.5 3.5 0 0 1 6.8 0H11.5a.5.5 0 0 1 0 1H10.3a.5.5 0 0 1-.4-.2A2.5 2.5 0 0 0 6.5 3.5Z"/>
+                </svg>
+                <span>Veículos</span>
+            </a>
+            <a href="#" class="nav-item" onclick="showScheduleScreen()">
+                <svg width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+                </svg>
+                <span>Agenda</span>
+            </a>
+            <a href="#" class="nav-item" onclick="showProfileScreen()">
+                <svg width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+                </svg>
+                <span>Perfil</span>
+            </a>
+        </nav>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
